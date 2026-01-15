@@ -1,13 +1,9 @@
 import { Outlet } from '@tanstack/react-router'
 import { Monitor, Bell, Palette, Wrench, UserCog } from 'lucide-react'
 import { Separator } from '@/components/ui/separator'
-import { ConfigDrawer } from '@/components/config-drawer'
 import { Header } from '@/components/layout/header'
+import { HeaderIcons } from '@/components/layout/header-icons'
 import { Main } from '@/components/layout/main'
-import { ProfileDropdown } from '@/components/profile-dropdown'
-import { Search } from '@/components/search'
-import { ThemeSwitch } from '@/components/theme-switch'
-import { GithubLink } from '@/components/github-link'
 import { SidebarNav } from './components/sidebar-nav'
 
 const sidebarNavItems = [
@@ -43,13 +39,7 @@ export function Settings() {
     <>
       {/* ===== Top Heading ===== */}
       <Header>
-        <Search />
-        <div className='ms-auto flex items-center space-x-4'>
-          <ThemeSwitch />
-          <GithubLink />
-          <ConfigDrawer />
-          <ProfileDropdown />
-        </div>
+        <HeaderIcons />
       </Header>
 
       <Main fixed>

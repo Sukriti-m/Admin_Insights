@@ -1,10 +1,6 @@
-import { ConfigDrawer } from '@/components/config-drawer'
 import { Header } from '@/components/layout/header'
+import { HeaderIcons } from '@/components/layout/header-icons'
 import { Main } from '@/components/layout/main'
-import { ProfileDropdown } from '@/components/profile-dropdown'
-import { Search } from '@/components/search'
-import { ThemeSwitch } from '@/components/theme-switch'
-import { GithubLink } from '@/components/github-link'
 import { TasksDialogs } from './components/tasks-dialogs'
 import { TasksPrimaryButtons } from './components/tasks-primary-buttons'
 import { TasksProvider } from './components/tasks-provider'
@@ -15,13 +11,7 @@ export function Tasks() {
   return (
     <TasksProvider>
       <Header fixed>
-        <Search />
-        <div className='ms-auto flex items-center space-x-4'>
-          <ThemeSwitch />
-          <GithubLink />
-          <ConfigDrawer />
-          <ProfileDropdown />
-        </div>
+        <HeaderIcons />
       </Header>
 
       <Main className='flex flex-1 flex-col gap-4 sm:gap-6'>
