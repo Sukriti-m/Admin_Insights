@@ -13,6 +13,7 @@ import { TopNav } from '@/components/layout/top-nav'
 import { ProfileDropdown } from '@/components/profile-dropdown'
 import { Search } from '@/components/search'
 import { ThemeSwitch } from '@/components/theme-switch'
+import { GithubLink } from '@/components/github-link'
 import { Analytics } from './components/analytics'
 import { Overview } from './components/overview'
 import { RecentSales } from './components/recent-sales'
@@ -25,6 +26,7 @@ export function Dashboard() {
         <div className='ms-auto flex items-center space-x-4'>
           <Search />
           <ThemeSwitch />
+          <GithubLink />
           <ConfigDrawer />
           <ProfileDropdown />
         </div>

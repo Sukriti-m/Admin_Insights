@@ -5,6 +5,7 @@ import { Main } from '@/components/layout/main'
 import { ProfileDropdown } from '@/components/profile-dropdown'
 import { Search } from '@/components/search'
 import { ThemeSwitch } from '@/components/theme-switch'
+import { GithubLink } from '@/components/github-link'
 import { UsersDialogs } from './components/users-dialogs'
 import { UsersPrimaryButtons } from './components/users-primary-buttons'
 import { UsersProvider } from './components/users-provider'
@@ -23,6 +24,7 @@ export function Users() {
         <Search />
         <div className='ms-auto flex items-center space-x-4'>
           <ThemeSwitch />
+          <GithubLink />
           <ConfigDrawer />
           <ProfileDropdown />
         </div>

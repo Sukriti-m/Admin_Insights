@@ -7,6 +7,7 @@ import { Main } from '@/components/layout/main'
 import { ProfileDropdown } from '@/components/profile-dropdown'
 import { Search } from '@/components/search'
 import { ThemeSwitch } from '@/components/theme-switch'
+import { GithubLink } from '@/components/github-link'
 import { SidebarNav } from './components/sidebar-nav'
 
 const sidebarNavItems = [
@@ -45,6 +46,7 @@ export function Settings() {
         <Search />
         <div className='ms-auto flex items-center space-x-4'>
           <ThemeSwitch />
+          <GithubLink />
           <ConfigDrawer />
           <ProfileDropdown />
         </div>
