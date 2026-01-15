@@ -14,6 +14,7 @@ import { Separator } from '@/components/ui/separator'
 import { Header } from '@/components/layout/header'
 import { HeaderIcons } from '@/components/layout/header-icons'
 import { Main } from '@/components/layout/main'
+import { Search } from '@/components/search'
 import { apps } from './data/apps'
 
 const route = getRouteApi('/_authenticated/apps/')
