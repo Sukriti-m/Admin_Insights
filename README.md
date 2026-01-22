@@ -17,8 +17,7 @@ A modern, feature-rich admin dashboard built with React, TypeScript, and TanStac
 - Sign Up
 - Forgot Password
 - OTP Verification
-- Session management with Clerk
-
+  
 ### UI/UX
 - **Dark/Light Mode** - Theme switching support
 - **Responsive Design** - Mobile-first approach
@@ -73,15 +72,6 @@ A modern, feature-rich admin dashboard built with React, TypeScript, and TanStac
 4. **Open your browser**
    Navigate to `http://localhost:5173` (or the port shown in terminal)
 
-## 🛠️ Available Scripts
-
-- `pnpm dev` - Start development server
-- `pnpm build` - Build for production
-- `pnpm preview` - Preview production build
-- `pnpm lint` - Run ESLint
-- `pnpm format` - Format code with Prettier
-- `pnpm format:check` - Check code formatting
-- `pnpm knip` - Find unused code and dependencies
 
 ## 📁 Project Structure
 
