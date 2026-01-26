@@ -2,8 +2,7 @@
 
 A modern, feature-rich admin dashboard built with React, TypeScript, and TanStack Router. This application provides a comprehensive admin interface with user management, task tracking, app integrations, analytics, and more.
 
-![Uploading Screenshot 2026-01-26 203535.png…]()
-
+<img width="1907" height="1039" alt="admin" src="https://github.com/user-attachments/assets/17791b42-0657-47fe-bd1b-35be8a430dfe" />
 
 ## ✨ Features
 
