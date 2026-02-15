@@ -2,6 +2,8 @@
 
 A modern, feature-rich admin dashboard built with React, TypeScript, and TanStack Router. This application provides a comprehensive admin interface with user management, task tracking, app integrations, analytics, and more.
 
+<img width="1907" height="1039" alt="admin" src="https://github.com/user-attachments/assets/17791b42-0657-47fe-bd1b-35be8a430dfe" />
+
 ## ✨ Features
 
 ### Core Features
@@ -17,8 +19,7 @@ A modern, feature-rich admin dashboard built with React, TypeScript, and TanStac
 - Sign Up
 - Forgot Password
 - OTP Verification
-- Session management with Clerk
-
+  
 ### UI/UX
 - **Dark/Light Mode** - Theme switching support
 - **Responsive Design** - Mobile-first approach
@@ -73,15 +74,6 @@ A modern, feature-rich admin dashboard built with React, TypeScript, and TanStac
 4. **Open your browser**
    Navigate to `http://localhost:5173` (or the port shown in terminal)
 
-## 🛠️ Available Scripts
-
-- `pnpm dev` - Start development server
-- `pnpm build` - Build for production
-- `pnpm preview` - Preview production build
-- `pnpm lint` - Run ESLint
-- `pnpm format` - Format code with Prettier
-- `pnpm format:check` - Check code formatting
-- `pnpm knip` - Find unused code and dependencies
 
 ## 📁 Project Structure
 
